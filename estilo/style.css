@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Manuscrito';
+    src: url('fonte/Olivia\ Bloom.ttf') format('TrueType');
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Merriweather & display=swap');
+
+
+:root {
+    --cor0: #B0EAFF;
+    --cor1: #326B80;
+    --cor2: #8DBBCC;
+    --cor3: #63D6FF;
+    --cor4: #587580;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor2));
+    
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    text-align: center;
+    min-width: 150px;
+    padding-top: 40px;
+
+
+}
+
+header > h1 {
+    font-family: 'Merriweather', serifa;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.685);
+}
+
+header > p {
+    font-family: 'Manuscrito', serif;
+    margin: auto;
+    font-size: 2em;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    
+    
+} 
+
+nav {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+nav > a {
+    color: var(--cor4);
+    padding: 10px;
+    text-decoration: none;
+    font-size: bold;
+    transition-duration: .5s;
+    border-radius: 5px;
+    
+}
+
+nav > a:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    border-radius: 10px 10px;
+}
+
+main > article > h1 {
+    font-family: 'Merriweather', serifa;
+    font-size: 1.4em;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.685);
+    text-align: center;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    
+} 
+
+main > article > h2 {
+    font-family: 'Merriweather', serifa;
+    font-size: 1.4em;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    
+}
+
+main > article > div#foto{
+   background-color: transparent;
+   text-align: center;
+   margin: auto;
+   margin: -20px -30px;
+   
+}
+
+main > article > div.video {
+    background-color: transparent;
+    padding: 20px;
+    margin: 0px -20px 30px -20px;
+    position: relative;
+    padding-bottom: 58%;
+}
+
+main > article > div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 1em;
+    font-family: 'Merriweather', serifa;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    font-family: 'Merriweather', serifa;
+    font-weight: bolder;
+}
+
