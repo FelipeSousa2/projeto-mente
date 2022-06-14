@@ -104,13 +104,25 @@ main > article > h2 {
     
 }
 
-main > article > div#foto{
-   background-color: transparent;
-   text-align: center;
-   margin: auto;
-   margin: -20px -30px;
-   
+main > article > section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
 }
+
+main > article > section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+
+}
+
+main > article > section > p {
+    line-height: 2em;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.253);
+
+}
+
 
 main > article > div.video {
     background-color: transparent;
