@@ -128,8 +128,8 @@ main > article > section > p {
 }
 
 main > article > section#img01 {
-    background-image: url(../imagens/backgraund01.jpg);
-    background-position: top center;
+    background-image: url(../imagens/backgraund02.jpg);
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
 }
