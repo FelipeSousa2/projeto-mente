@@ -157,12 +157,27 @@ main p {
     text-align: justify;
     line-height: 1.5em;
     font-size: 1em;
-    font-family: 'Merriweather', serifa;
+    font-family: 'Hachi Maru Pop', cursive;
 }
 
 footer {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
     font-family: 'Merriweather', serifa;
+    padding: 10px;
+    text-align: center;
     font-weight: bolder;
+    
+
 }
+footer a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
 
