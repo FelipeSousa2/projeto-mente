@@ -121,9 +121,10 @@ main > article > section.imagem {
 main > article > section > p {
     font-family: 'Hachi Maru Pop', cursive;
     padding: 5px;
-    line-height: 2em;
+    line-height: 1.8em;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.418);
+    font-size: 1.2em;
 
 }
 
