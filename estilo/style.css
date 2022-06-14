@@ -128,7 +128,7 @@ main > article > section > p {
 }
 
 main > article > section#img01 {
-    background-image: url(../imagens/pexels-kat-smith-551588.jpg);
+    background-image: url(../imagens/backgraund01.jpg);
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
